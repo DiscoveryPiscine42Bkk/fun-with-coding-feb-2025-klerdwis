@@ -1,7 +1,8 @@
 #!/bin/bash
-# นับไฟล์ปกติ
-file_count=$(find . -type f | wc -l)
-# นับไดเรกทอรี
-dir_count=$(find . -type d | wc -l)
-# ผลลัพธ์
-echo $((file_count + dir_count))
+
+# Count regular files and directories (excluding hidden ones)
+count=$(find . -maxdepth 1 \( -type f -o -type d \) ! -name '.' ! -name '.*' | wc -l)
+
+# Display the count only, no $ at the end
+echo "$count"
+
