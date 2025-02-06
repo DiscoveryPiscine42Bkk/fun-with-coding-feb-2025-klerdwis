@@ -1,0 +1,17 @@
+table {
+    width: 100vw;
+    height: 100vh;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th, td {
+    border: 1px solid black;
+    padding: 50px;
+    font-size: 2vw;
+}
+td:nth-child(1) {
+    background-color: lightgreen;
+}
+td:nth-child(2) {
+    background-color: lightcoral;
+}
