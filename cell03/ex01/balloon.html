@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Balloon</title>
-  <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloon</title>
+    <style>
     #balloon {
-      width: 200px;
-      height: 200px;
-      background-color: red;
-      border-radius: 50%;
-      position: relative;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 50%;
+        position: relative;
     }
     body {
         display: flex;
@@ -17,15 +19,12 @@
         height: 100vh;
         width: 100%;
     }
-  </style>
+    </style>
 </head>
 <body>
-  <div id="balloon"></div>
-  <script>
-    const balloon = document.getElementById('balloon');
-    let size = 200;
-    let colors = ['red', 'green', 'blue'];
-    let currentColorIndex = 0;
+    <div id="balloon"></div>
+    <script>
+    const balloon = document.getElementById('balloon'); let size = 200; let colors = ['red', 'green', 'blue']; let currentColorIndex = 0;
     balloon.addEventListener('click', () => {
       size += 10;
       balloon.style.width = size + 'px';
