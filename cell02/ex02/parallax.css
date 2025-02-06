@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  #section1 {
+    background-image: url("https://c.wallhere.com/photos/a6/c0/Spider_Man_Across_the_Spider_Verse_Marvel_Cinematic_Universe_Spiderman_Miles_Morales_spidermanintothespiderverse_Marvel_Comics_AI_wallpaper_Marvel_Studios_Marvel_Super_Heroes-2277948.jpg!d");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  #section2 {
+    background-image: url("https://www.teahub.io/photos/full/216-2168173_-.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+  }
+  #section3 {
+    background-size: cover;
+    background-color: black;
+    color: white;
+    height: 30vh;
+  }
